@@ -1,0 +1,18 @@
+---
+layout: default
+img: css3.jpg
+category: builton
+title: Utilizing the power of CSS
+description: |
+  <p class="lead">The Conductor Selenium framework encourages the use of CSS selectors for
+  specificity of elements by overloading all methods to take a CSS selector.</p>
+---
+{% highlight java %}
+public class CSSCarTests extends Locomotive {
+    public void testCSS() {
+        click("#someId")
+        .validatePresent("input[type='text'] > label")
+        .setText(".username", "my username");
+    }
+}
+{% endhighlight %}

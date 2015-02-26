@@ -1,0 +1,23 @@
+---
+layout: default
+img: fluent.gif
+category: builton
+title: Fluent Interface
+description: |
+  <p class="lead">Conductor is built using a fluent interface, making your automated tests extremely
+  easy to read, and extremely easy to make.  Reuse the test object over and over.</p>
+---
+{% highlight java %}
+public class CattleCarTests extends Locomotive {
+    public void testTheyDidntGetOut() {
+        click(By.id("btnOpenCar"));
+        validatePresent(By.className("cow"));
+
+        // can be written fluently!
+
+        click(By.id("btnOpenCar"))
+        .validatePresent(By.className("cow"))
+        .log("They are still here.")
+    }
+}
+{% endhighlight %}

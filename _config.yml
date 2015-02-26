@@ -1,14 +1,32 @@
-# Site settings
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: http://conductor.ddavison.io
 title: Conductor
 email: sircapsalot@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
+description: >
   Conductor is a fluent interface wrapper for the Selenium WebDriver written in Java.
   The framework utilizes the power of CSS, to be an extremely easy and effective framework
   for QA engineers.  Conductor is currently being used by companies such as InboundNow, Major League Gaming (MLG)
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://conductor.ddavison.io" # the base hostname & protocol for your site
-twitter_username: sircapsalot
-github_username:  ddavison
+
+excerpt_separator: ""
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
 
 # Build settings
 markdown: kramdown
+permalink: pretty
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+social:
+  - title: download
+    url: https://github.com/ddavison/conductor/archive/master.zip
+  - title: github
+    url: https://github.com/ddavison/conductor
+  - title: maven
+    url: https://search.maven.org/#browse%7C681684214
