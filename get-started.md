@@ -14,7 +14,7 @@ In your `pom.xml` file, just add:
 <dependency>
   <groupId>io.ddavison</groupId>
   <artifactId>conductor</artifactId>
-  <version>[1,)</version>
+  <version>2.0.2</version>
 </dependency>
 {% endhighlight %}
 
@@ -58,7 +58,7 @@ public class MyTestSuit extends SuperClass {
     public void testSomething() {
         ...
     }
-    
+
     @Test
     public void testSomethingElse() {
         ...
@@ -89,10 +89,10 @@ public class TestNGBaseTest extends Locomotive {
     public TestNGBaseTest() {
         super();
     }
-    
+
     @Before // testng before
     public void before() {}
-    
+
     @After // testng after
     public void after() {
         teardown();
