@@ -14,7 +14,7 @@ In your `pom.xml` file, just add:
 <dependency>
   <groupId>io.ddavison</groupId>
   <artifactId>conductor</artifactId>
-  <version>2.0.2</version>
+  <version>{{site.conductor.version}}</version>
 </dependency>
 {% endhighlight %}
 

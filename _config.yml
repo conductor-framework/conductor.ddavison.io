@@ -10,6 +10,13 @@ description: >
   The framework utilizes the power of CSS, to be an extremely easy and effective framework
   for QA engineers.  Conductor is currently being used by companies such as InboundNow, Major League Gaming (MLG)
 
+# ----------------------- #
+#     Conductor           #
+# ----------------------- #
+conductor:
+  site: http://conductor.ddavison.io
+  version: 2.0.3
+
 excerpt_separator: ""
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -25,8 +32,8 @@ permalink: pretty
 
 social:
   - title: download
-    url: https://github.com/ddavison/conductor/archive/master.zip
+    url: https://github.com/conductor-framework/conductor/archive/master.zip
   - title: github
-    url: https://github.com/ddavison/conductor
+    url: https://github.com/conductor-framework/conductor
   - title: maven
     url: http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22conductor%22
