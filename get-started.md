@@ -29,6 +29,7 @@ the `Config` annotation.
     url     = "http://your-app-url"
 )
 public class MyTest extends Locomotive {
+    @Test 
     public void myTest() {
         // here we will already be at http://your-app-url, so start testing!
         click("#someId") // a css selector
