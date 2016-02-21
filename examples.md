@@ -8,7 +8,7 @@ Examples
 
 Everyone learns best by seeing examples:
 
-Here are some examples (taken from the unit tests to publish this framework) so you can see:
+Here are some example tests:
 
 {% highlight java %}
 package io.ddavison.conductor;
