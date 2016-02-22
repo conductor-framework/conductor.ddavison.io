@@ -4,7 +4,7 @@ img: css3.jpg
 category: builton
 title: Utilizing the power of CSS
 description: |
-  <p class="lead">The Conductor Selenium framework encourages the use of CSS selectors for
+  <p class="lead">Conductor encourages the use of CSS selectors for
   specificity of elements by overloading all methods to take a CSS selector.</p>
 ---
 {% highlight java %}
