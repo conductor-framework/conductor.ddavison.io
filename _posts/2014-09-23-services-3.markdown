@@ -5,7 +5,7 @@ category: builton
 title: Utilizing the power of CSS
 description: |
   <p class="lead">Conductor encourages the use of CSS selectors for
-  specificity of elements by overloading all methods to take a CSS selector.</p>
+  specificity of elements by overloading all methods to take CSS selectors</p>
 ---
 {% highlight java %}
 public class CSSCarTests extends Locomotive {
