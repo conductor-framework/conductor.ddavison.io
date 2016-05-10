@@ -17,7 +17,7 @@ conductor:
   scm:
     url: https://github.com/conductor-framework/conductor
   site: http://conductor.ddavison.io
-  version: 2.2.2
+  version: 2.2.4
 
 excerpt_separator: ""
 # ----------------------- #
@@ -38,4 +38,4 @@ social:
   - title: github
     url: https://github.com/conductor-framework/conductor
   - title: maven
-    url: http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22conductor%22
+    url: https://search.maven.org/#search%7Cga%7C1%7Cio.ddavison.conductor 
