@@ -40,7 +40,7 @@ public class MyTest extends Locomotive {
 
 Preparing your own test framework
 ===
-At it's heart, Conductor is meant to guide your tests, not necessarily your testing strategy.  It would be a good idea
+At its heart, Conductor is meant to guide your tests, not necessarily your testing strategy.  It would be a good idea
 to eventually create your own framework, which wraps Conductor.
 
 Here is an example:
